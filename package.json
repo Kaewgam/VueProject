@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "firebase": "^12.1.0",
+    "longdo-map-vue": "^2.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

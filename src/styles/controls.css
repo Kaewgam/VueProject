@@ -1,0 +1,46 @@
+.opacity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.slider {
+  flex: 1;
+  height: 4px;
+  background: #475569;
+  border-radius: 2px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #dc2626;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.opacity-value {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.snap-section {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
+
+.snap-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.snap-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}

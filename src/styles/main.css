@@ -1,0 +1,11 @@
+/* Import all separated stylesheets */
+@import "./base.css";
+@import "./header.css";
+@import "./navbar.css";
+@import "./forms.css";
+@import "./buttons.css";
+@import "./controls.css";
+@import "./sections.css";
+@import "./map.css";
+@import "./panels.css";
+@import "./responsive.css";

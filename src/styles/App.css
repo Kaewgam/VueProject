@@ -1,0 +1,18 @@
+/* ตัวอย่างสไตล์ */
+.checkbox-label {
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.checkbox-label input { position: absolute; opacity: 0; width: 0; height: 0; }
+.checkbox-label .checkmark {
+  width: 16px; height: 16px; border: 1px solid #6b7280; border-radius: 4px;
+  display: inline-flex; align-items:center; justify-content:center;
+  font-size: 12px; line-height: 1; user-select: none;
+}
+/* แสดง ✓ เมื่อ input ถูกเช็ค */
+.checkbox-label input:checked + .checkmark::after {
+  content: '✓';
+}
+/* ไม่เช็ค → ไม่มี content */
+.checkbox-label input:not(:checked) + .checkmark::after {
+  content: '';
+}

@@ -1,0 +1,78 @@
+.search-panel,
+.filters-panel,
+.layers-panel {
+  position: absolute;
+  right: 80px;
+  top: 250px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 300;
+  border: 1px solid #e5e7eb;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f8fafc;
+  border-radius: 8px 8px 0 0;
+}
+
+.panel-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+.search-panel {
+  padding: 1rem;
+}
+
+.filters-panel {
+  padding: 1rem;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.price-range {
+  display: contents;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.layers-panel {
+  padding: 1rem;
+}
+
+.layer-item {
+  margin-bottom: 0.8rem;
+}
+
+.layer-item:last-child {
+  margin-bottom: 0;
+}
+
+.layer-item .checkbox-label {
+  margin-bottom: 0;
+  color: #374151;
+}
+
+.layer-item .checkmark {
+  background: #3b82f6;
+  width: 18px;
+  height: 18px;
+}

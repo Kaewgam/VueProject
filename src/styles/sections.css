@@ -1,0 +1,52 @@
+.form-section {
+  flex: 1;
+}
+
+.form-section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #f1f5f9;
+}
+
+.form-subtitle {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-bottom: 0.8rem;
+}
+
+.section-divider {
+  height: 1px;
+  background: #334155;
+  margin: 1.5rem 0;
+}
+
+.land-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.land-item {
+  background: #334155;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border-left: 3px solid #3b82f6;
+}
+
+.land-owner {
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-bottom: 0.3rem;
+}
+
+.land-details {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.no-data {
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+  padding: 1rem;
+}

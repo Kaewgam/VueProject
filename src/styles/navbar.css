@@ -1,0 +1,67 @@
+.navbar {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  width: 320px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-right: 1px solid #334155;
+  position: fixed;
+  left: 0;
+  top: 80px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+}
+
+.control-section {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
+
+.section-header {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #f1f5f9;
+}
+
+.engine-info {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
+
+.nav-btn {
+  padding: 0.5rem 0.8rem;
+  background: transparent;
+  border: 1px solid #475569;
+  color: #e2e8f0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.nav-btn.active {
+  background: #334155;
+  border-color: #64748b;
+}
+
+.nav-btn:hover {
+  background: #334155;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
