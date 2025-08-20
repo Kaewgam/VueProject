@@ -189,7 +189,7 @@
             </svg>
             <span v-if="unreadCount > 0" class="notification-badge">{{
               unreadCount
-              }}</span>
+            }}</span>
           </button>
 
           <!-- Explore Button -->
@@ -206,8 +206,17 @@
             <h3>ค้นหา</h3>
             <button @click="showSearch = false" class="close-btn">×</button>
           </div>
-          <input type="text" v-model="searchQuery" placeholder="ค้นหาสถานที่..." class="search-input" />
+
+          <!-- ✅ ปรับ placeholder ให้สื่อว่าใส่พิกัด/ข้อความได้ -->
+          <input type="text" v-model="searchQuery"
+            placeholder="พิมพ์ชื่อสถานที่ หรือ 13.7563, 100.5018 (ปล่อยว่างเพื่อใช้ GPS)" class="search-input" />
+
           <button @click="performSearch" class="btn btn-primary">ค้นหา</button>
+
+          <!-- (แนะนำ) ปุ่มใช้ GPS โดยตรง -->
+          <button @click="locateByGPS" class="btn btn-outline-secondary" style="margin-left:8px">
+            ใช้ตำแหน่งฉัน (GPS)
+          </button>
         </div>
 
         <!-- Filters Panel -->
